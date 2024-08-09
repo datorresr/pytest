@@ -1,4 +1,4 @@
-anyio[curio,trio]==3.5.0
+anyio==4.4.0
 django==4.0.3
 pytest-asyncio==0.18.2
 pytest-bdd==5.0.0
@@ -11,5 +11,7 @@ pytest-rerunfailures==10.2
 pytest-sugar==0.9.4
 pytest-trio==0.7.0
 pytest-twisted==1.13.4
-twisted==22.1.0
+twisted==24.7.0rc1
 pytest-xvfb==2.0.0
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
